@@ -1,0 +1,18 @@
+.tabs-table{
+.panel__description{font-size:20px}
+
+.panel{border:1px solid lightblue; padding:0 10px;  flex:2;}
+
+.panel--active{display:inline-block;}
+
+.buttons{border:1px solid lightblue; flex:1;}
+
+.button--active{background-color:lightblue;}
+
+.button{ margin:0px; padding:20px 0; cursor:pointer; border:0; display:block; width:100%; font-size: 20px}
+
+.button:hover{background-color:#e6f9ff;}
+
+display:flex;
+
+}

@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.nav{
+  
+  display: flex;
+  align-items: center;position:relative;background-color:#333;
+  &__btn{display:none;}
+  &__btn-wrapper{
+    display:flex; justify-content:space-between; 
+  }
+  &__link{
+    padding:10px;color: white; background-color:#333;
+  &--green{background-color: #04AA6D; }
+  &:hover{background-color:#ddd;color:black; }
+
+  &--burger{
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: right center;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns:dc='http://purl.org/dc/elements/1.1/' xmlns:cc='http://creativecommons.org/ns%23' xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns%23' xmlns:svg='http://www.w3.org/2000/svg' xmlns='http://www.w3.org/2000/svg' xmlns:sodipodi='http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd' xmlns:inkscape='http://www.inkscape.org/namespaces/inkscape' width='310' height='259.34375' id='svg2' version='1.1' inkscape:version='0.48.4 r9939' sodipodi:docname='New document 1'%3E%3Ctitle id='title3842'%3EHamburger (Menu) Icon%3C/title%3E%3Cdefs id='defs4'/%3E%3Csodipodi:namedview id='base' pagecolor='%23ffffff' bordercolor='%23666666' borderopacity='1.0' inkscape:pageopacity='0.0' inkscape:pageshadow='2' inkscape:zoom='0.54' inkscape:cx='358.20459' inkscape:cy='473.54108' inkscape:document-units='px' inkscape:current-layer='layer1' showgrid='false' showborder='true' inkscape:showpageshadow='false' fit-margin-top='5' fit-margin-right='5' fit-margin-bottom='5' fit-margin-left='5' inkscape:window-width='1378' inkscape:window-height='882' inkscape:window-x='208' inkscape:window-y='58' inkscape:window-maximized='0'/%3E%3Cmetadata id='metadata7'%3E%3Crdf:RDF%3E%3Ccc:Work rdf:about=''%3E%3Cdc:format%3Eimage/svg+xml%3C/dc:format%3E%3Cdc:type rdf:resource='http://purl.org/dc/dcmitype/StillImage'/%3E%3Cdc:title%3EHamburger (Menu) Icon%3C/dc:title%3E%3Cdc:date%3E2015-06-29%3C/dc:date%3E%3Cdc:creator%3E%3Ccc:Agent%3E%3Cdc:title%3EDaniel Fowler%3C/dc:title%3E%3C/cc:Agent%3E%3C/dc:creator%3E%3Cdc:rights%3E%3Ccc:Agent%3E%3Cdc:title%3EPublic Domain%3C/dc:title%3E%3C/cc:Agent%3E%3C/dc:rights%3E%3Cdc:publisher%3E%3Ccc:Agent%3E%3Cdc:title%3Eopenclipart.org%3C/dc:title%3E%3C/cc:Agent%3E%3C/dc:publisher%3E%3Cdc:language%3Een-GB%3C/dc:language%3E%3Cdc:subject%3E%3Crdf:Bag%3E%3Crdf:li%3Eicon%3C/rdf:li%3E%3Crdf:li%3Emenu%3C/rdf:li%3E%3Crdf:li%3Ehamburger%3C/rdf:li%3E%3Crdf:li%3Ebasic%3C/rdf:li%3E%3Crdf:li%3Esimple%3C/rdf:li%3E%3Crdf:li%3Eblack%3C/rdf:li%3E%3Crdf:li%3Ewhite%3C/rdf:li%3E%3Crdf:li%3Elines%3C/rdf:li%3E%3Crdf:li%3Erounded%3C/rdf:li%3E%3Crdf:li%3Eopen%3C/rdf:li%3E%3Crdf:li%3Eclose%3C/rdf:li%3E%3Crdf:li%3Enorm%3C/rdf:li%3E%3Crdf:li%3Ecox%3C/rdf:li%3E%3Crdf:li%3Estar%3C/rdf:li%3E%3Crdf:li%3Exerox%3C/rdf:li%3E%3C/rdf:Bag%3E%3C/dc:subject%3E%3Ccc:license rdf:resource='http://creativecommons.org/licenses/publicdomain/'/%3E%3Cdc:description%3EA simple and basic hamburger (menu) icon. It originates from Xerox 'Star' workstations of the 1980's but is now popular to hide/show menus on mobile devices.%3C/dc:description%3E%3Cdc:contributor%3E%3Ccc:Agent%3E%3Cdc:title%3ENorm Cox%3C/dc:title%3E%3C/cc:Agent%3E%3C/dc:contributor%3E%3C/cc:Work%3E%3Ccc:License rdf:about='http://creativecommons.org/licenses/publicdomain/'%3E%3Ccc:permits rdf:resource='http://creativecommons.org/ns%23Reproduction'/%3E%3Ccc:permits rdf:resource='http://creativecommons.org/ns%23Distribution'/%3E%3Ccc:permits rdf:resource='http://creativecommons.org/ns%23DerivativeWorks'/%3E%3C/cc:License%3E%3C/rdf:RDF%3E%3C/metadata%3E%3Cg inkscape:label='Layer 1' inkscape:groupmode='layer' id='layer1' transform='translate(10.015625,-803.03125)'%3E%3Cg id='g3837'%3E%3Cpath inkscape:connector-curvature='0' id='path3785-0' d='m 19.668179,1032.694 250.646101,0 0,0' style='fill:none;stroke:%23000000;stroke-width:49.33635712;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none'/%3E%3Cpath inkscape:connector-curvature='0' id='path3785-0-9' d='m 19.668179,932.694 250.646101,0 0,0' style='fill:none;stroke:%23000000;stroke-width:49.33635712;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none'/%3E%3Cpath inkscape:connector-curvature='0' id='path3785-0-4' d='m 19.668179,832.694 250.646101,0 0,0' style='fill:none;stroke:%23000000;stroke-width:49.33635712;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    &:hover
+    {
+      background-color: unset;
+    }
+  }
+  }
+
+
+  }
+
+
+  @media screen and (max-width: 600px){
+.nav{    
+    display:flex; flex-wrap: wrap; padding: 0; flex-direction: column;
+    align-items: start;
+
+    &__btn-wrapper{width:100%;}
+  
+  &__link--green{display:block;}
+
+  &__menu{display:none; position:absolute; left:0; top:38px; width:100%;}
+  &__link{display:block;}
+  & a:not(:first-child) {display: none;}
+ &--open a:not(:first-child){display:block;}
+  & a#{&}__btn{display:block;}
+  }
+  }

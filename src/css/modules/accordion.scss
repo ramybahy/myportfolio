@@ -1,0 +1,19 @@
+.accordion{
+     &-btn{
+          display:flex; justify-content:space-between;
+          background-color: lightgray; align-items: center; padding: 10px;
+          &:hover{background-color:gray;}
+          width:100%; border:0;
+     }
+
+
+     .panel{ transition: all 0.3s ease;overflow:hidden;display: none;}
+     .icon::after{content:"\002B"; display:block;}
+     
+     &.accordion--open{ 
+          .accordion-btn{
+          .icon:after{content:"\2212";}
+          }
+          .panel{display: block;}
+     }
+}

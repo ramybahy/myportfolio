@@ -1,0 +1,28 @@
+.tabs{
+    background-color:lightgray; display:flex; border:1px lightgray solid;
+
+.tabs__button{
+border:0;
+padding:10px;
+font-size: 17px;
+
+}
+
+.tabs__button.active{
+background-color:gray;
+}
+.tabs__button:hover{
+background-color:gray;
+}
+
+.tabs__button--open{
+display:block;
+}
+h2{margin:0;}
+}
+.tabcontent{
+    border:1px lightgray solid; border-top:0; padding: 15px; 
+    &__description{
+        font-size:20px
+    }
+    }

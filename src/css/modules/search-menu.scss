@@ -1,0 +1,11 @@
+
+
+.table{
+    display:flex;
+    .menu{background-color:gray; display:flex;flex-direction:column; flex:1;}
+    a,h1{padding:10px;}
+    a:hover{background-color:lightgray;}
+    .content{flex:2; padding:0 10px; background-color:lightgray}
+    .search{padding:10px}
+    
+}

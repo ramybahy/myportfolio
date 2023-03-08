@@ -1,0 +1,27 @@
+.menu{
+
+&__button{border:0; background-color:transparent; font-size: 30px;}
+
+&__panel{display:flex; width:0; background-color:black; color:lightgray; flex-direction:column; height:100vh; position:fixed; top:0;left:0; transition: width 0.5s; overflow:hidden; padding:20px 0;}
+
+&__close{
+  font-size:50px;margin-left:auto; margin-right: 10px;
+}
+&__panel{
+   a:hover{color:white;}
+  }
+
+&__panel {
+  a{padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;}
+}
+  
+&__panel--open{width:210px;}
+}
+
+#main{ transition: margin-left 0.5s; padding: 16px;}
+
