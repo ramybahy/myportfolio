@@ -2,7 +2,18 @@ nav{
    li{padding: 10px;}
 .#{&}__link{
      background-color:transparent;
-     color:black;
+     color:white;
      text-decoration: none;
+     &:visited{
+      color:white
+     }
 }
+}
+.home{
+   background-color:#1d1d20;
+   color:white;
+   &__inner{
+      padding:2rem;
+      margin:auto; max-width:75rem; 
+   }
 }
